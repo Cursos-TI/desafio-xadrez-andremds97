@@ -26,5 +26,20 @@ int main() {
         rainha++;
     }   while (rainha < casasrainha);
 
+    int cavalo = 2;
+    int cavalocasas = 1;
+
+        for(int i = 0; i < cavalo; i++) {
+                printf("Baixo!\n");
+            if (i == cavalo - 1) {
+                
+            int j = 1;
+            while (j < 2) {
+                printf("Esquerda!\n");
+            j++;
+            }
+        }
+    }
+
     return 0;
 }
